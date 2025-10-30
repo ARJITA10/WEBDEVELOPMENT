@@ -1,0 +1,61 @@
+.container{
+    width:600px;
+    height:300px;
+    background-color: yellow;
+    display:flex;
+    /* items will automatically comes in row direction kyuki by default flex direction is row so all items will present in row form*/
+    display:grid;
+    display:inline-grid;
+    /* items remains in vertical layout but bhich me unke spaces h  jo equally divide h */
+    grid-template-rows: 100px 100px 100px;
+    grid-template-rows: 60px 60px 60px;
+    grid-template-rows: 80px 80px 80px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows:repeat(5, 1fr);
+    grid-template-rows:repeat(3, 1fr);
+    /* 2nd syntax is utne(3) times hi values ke andar assign karde */
+    grid-template-rows:1fr 1fr 1fr;
+    grid-template-columns:repeat(5, 1fr);
+    grid-template-columns: auto auto auto;
+    ROW-GAP:10PX;
+    column-gap:30px;
+    grid-gap:10px 30px;
+    grid-gap:10px;
+    justify-content:start;
+    justify-content: end;
+    justify-content: center;
+    align-items: start;
+    align-items: end;
+    align-items:center;
+}
+.item{
+    width:50px;
+    height:100px;
+    background-color: greenyellow;
+    border:2px solid black;
+    text-align: center;
+    text-align:start;
+    place-items:center;
+}
+.one{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-column-end: 4;
+    grid-column: 1/4;
+    grid-column: 1 / span 3;
+    grid-column: 1 / span 2;
+    justify-self: end;
+    align-self:start;
+    align-self:end;
+    align-self:center;
+    place-self:start;
+}
+.two{
+    grid-row-start:1;
+    grid-row-end:3;
+    grid-row:1/3;
+    grid-row:1/4;
+    grid-row:1/span 3;
+}

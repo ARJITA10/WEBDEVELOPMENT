@@ -1,0 +1,25 @@
+*{
+    font-family: 'Courier New';
+}
+/* universal selector */
+h1{
+    color:#1b74e4 !important;
+}
+/* element selector */
+#searchbtn{
+    background-color: black;
+    color:white;
+}
+/* id selector */
+#Login, #Register{
+    background-color: aqua;
+}
+.userbtn{
+    background-color: aqua;
+}
+h1{
+    color:green;
+}
+
+
+/* class or id selector - multiple elements are grouped together to get selected  */

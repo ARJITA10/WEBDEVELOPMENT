@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML LEVEL-3 PRACTICE QUESTION</title>
+</head>
+<body>
+    <!-- QUE-1)RECREATE THE FOLLOWING TABLE USING HTML? -->
+    <!-- QUE-2)RECREATE THE FOLLOWING FORM USING HTML?HINT-USE THE FOLLOWING:1)TEXT INPUT FOR NAME
+    2)RADIO BUTTON FOR SEX
+    3)GIVE OPTIONS:INDIA,NEPAL,USA,CANADA FOR CONTRY
+    4)TEXT AREA FOR MESSAGE
+    5)CHECKBOX FOR SUBSCRIBE
+    6)SUBMIT BUTTON -->
+    <!-- QUE-3) RECREATE THE FOLLOWING FORM USING HTML: -->
+    <!-- Ans-1) -->
+    <table border="black">
+        <caption>
+            Student Information
+        </caption>
+        <tr>
+            <th rowspan="6">Info</th>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Address</th>
+        </tr>
+        <tr>
+            <th>city</th>
+            <th>house</th>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>Mumbai</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>Kolkata</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>Pune</td>
+            <td>4</td>
+        </tr>
+    </table>
+
+    <HR>
+       <!-- Ans-2) --> 
+       <FORM>
+        <label for="name">Name:</label>
+        <input type="text"name="name"/>
+        <br>
+        <label for="sex">Sex:</label>
+        <input type="radio"name="sex"id="male"value="male"/>
+        <label for="male">Male</label>
+        <input type="radio"name="sex"id="Female"value="Female"/>
+        <label for="female">Female</label>
+        <br>
+        <label for="country">Country:</label>
+        <select name="Country" id="country">
+        <option>Select an option</option>
+        <option value="india">India</option>
+        <option value="usa"> USA</option>
+        <option value="nepal">Nepal</option>
+        <option value="canada">Canada</option>
+        </select>
+        <br>
+        <label for="message">Message:</label><br>
+        <textarea name="message"id="message"cols="30" rows="4"></textarea>
+        <br>
+        <input type="checkbox" name="newsletter"id="newsletter">
+        <label for="newsletter">Subcribe?</label>
+        <br>
+        <button>submit</button>
+        <hr>
+        <!-- Ans-3) -->
+        <H2>Feedback Form</H2>
+        <form action="/contact">
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Write your name" id="name"/>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Write your email" id="email"/>
+        <br>
+        <label for="message">Message:</label><br>
+        <input name="message" id="message" cols="30" rows="4"/></textarea>
+        <br>
+        <label for="rating">Rate us our of 5:</label><br>
+        <input type="radio"name="rating"id="one"value="one"/>
+        <label for="one">1.</label><br>
+        <input type="radio"name="rating"id="two"value="two"/>
+        <label for="two">2.</label><br>
+        <input type="radio"name="rating"id="three"value="three"/>
+        <label for="three">3.</label><br>
+        <input type="radio"name="rating"id="four"value="four"/>
+        <label for="four">4.</label><br>
+        <input type="radio"name="rating"id="five"value="five"/>
+        <label for="five">5.</label><br>
+        
+        <br>
+        <button>Send your message!</button>
+       </FORM>
+</body>
+</html>

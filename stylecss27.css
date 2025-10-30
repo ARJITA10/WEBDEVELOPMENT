@@ -1,0 +1,83 @@
+#container{
+    height:500px;
+    height:600px;
+    width:80%;
+    width:60%;
+    background-color:azure;
+    margin:10px auto;
+    border: 2px solid black;
+    display:flex;
+    /* restrict all the elements contained in the container to be inside the parent container arranged in horizontal direction depending upon properties*/
+    flex-direction:row;
+    flex-direction:column;
+    flex-direction:row-reverse;
+    flex-direction: column-reverse;
+    justify-content:flex-start;
+    justify-content:flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content:space-evenly;
+    flex-wrap:nowrap;
+    flex-wrap:wrap;
+    flex-wrap: wrap-reverse;
+    align-items: flex-start;
+    align-items :flex-end;
+    align-items:center;
+    align-items:baseline;
+    align-content:flex-start ;
+    align-content:flex-end;
+    align-content:center;
+    align-content:space-between;
+    align-content:space-around;
+    align-content:space-evenly;
+    align-content:baseline;
+    /* horizontally arranged -left taraf aajayege space occupied. right ki space will be empty */
+    /* by default */
+    /* flex-direction:column; */
+    flex-direction: column-reverse;
+    /* vertically  arranged*/
+}
+#orange{
+    align-self:flex-start;
+    align-self:flex-end;
+    align-self:center;
+    align-self:baseline;
+    flex-grow:1;
+    flex-shrink:1;
+    /* blue and orange equal proportion me width ko occupy kar raha h blue and orange ne usko addha adha kar liya */
+    /* container doesnot have this space to fit in 300px  */
+    flex-basis:300px;
+     flex-basis:50px;
+    flex:2 2 100px; 
+    /* after removing font-size */
+}
+#blue{
+    /* we increased its individual width along main axis */
+    flex-basis:400px;
+    flex-shrink:1;
+    flex-shrink:2;
+    flex-shrink:3;
+    /* it occupy whole available space baki sab ke liye flex row set nhi hua h */
+    flex-grow:2;
+    max-width:400px;
+    min-width:400px;
+}
+h1{
+    text-align:center;
+}
+/* container ke andar div ko property */
+#container div{
+    /* height:20px; */
+    height:100px;
+    height:50px;
+    width:300px;
+    width:50px;
+    /* width:10px; */
+    width:100px;
+    /* igonored+ */
+    color:white;
+    text-align:center;
+    font-size:1.5em;
+    /*container is this size so outer divs are overflowin container or outer parent element ki jitni jagah h usse mere sare divs bahar nikal rhe h layout is not that good we want to change the layout that way that we it remains inside the container*/
+}

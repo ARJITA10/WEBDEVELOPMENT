@@ -1,0 +1,127 @@
+/* * {
+    font-family:"Courier New";
+} */
+/* h3 {
+ color:purple ;  
+}
+h1 {
+color:#b92b27;
+} */
+/* h1,h3{
+color:#b92b27;
+
+} */
+/* #login{
+    background-color:white;
+}
+#signup{
+    background-color:#b92b27;
+    color:white;
+}
+.upvote{
+    background-color:green;
+    color:aliceblue;
+} */
+
+/* DESCENDANT SELECTOR */
+/* yellow color in all para anchor tag */
+/* p a {
+    color:purple;
+    background-color:yellow;
+
+} */
+/* we only want in yellow color in post */
+/* .post a{
+    color:purple;
+    background-color:yellow;
+} */
+/* pink color in bullet points */
+/* nav ul li {
+    color:hotpink;
+} */
+/* pink color in whole list */
+/* nav ul li a{
+    color:hotpink;
+}
+nav a{
+    color:hotpink;
+} */
+/* h3 tag immediately after p tag */
+/* p+h3{
+    text-decoration:underline;
+} */
+/* button tag immediately after .upvote class */
+/* .upvote + button{
+    background-color:cornflowerblue;
+    color:darkblue;
+}
+div > input{
+    background-color:darksalmon ;
+}
+input[type="text"]{
+    color:green;
+}
+input[type="password"]{
+    color:red;
+}
+input[type]{
+    background-color:ghostwhite;
+}
+button:hover{
+    background-color: black;
+    color: white;
+} */
+/* upvote and answer completelu changes but login or signup doesnot change */
+/* h3:hover{
+    text-decoration:none; */
+    /* to remove underline */
+    /*or - text-decoration:overline;  */
+/* } */
+/* button:active{
+    background-color: hotpink;
+    color: black;
+}
+p:active{
+    font-weight: bold;
+    color:green ;
+}
+input[type=radio]:checked + label{
+    color:red;
+    font-weight:bold;
+}
+.post :nth-of-type(2){
+background-color:blanchedalmond;
+} 
+div :nth-of-type(1n){
+    background-color:blanchedalmond;
+} 
+div :nth-of-type(2n){
+    background-color:blanchedalmond;
+} 
+div :nth-of-type(3n){
+    background-color:blanchedalmond;
+}  */
+/* calculate position of type of sibling elements */
+/* can apply any mathemathetical operators */
+/* h1::first-letter{
+    color:black;
+}
+p::first-line{
+    color:purple;
+}
+p::selection{
+    background-color: rgb(199,192,58);
+/* }* */
+h3{
+    background-color: yellow;
+}
+ /*IT DOES NOT CONSIDER YELLOW BAAD ME SAME ELEMENT KE LIYE JO PROPERTY  DEFINE H WAHI LAGU HONE WALI H CASCADING PROPERTY IS NOT JUST FOR SINGLE DOCUMENT. YANI FOR ONE HTML FILE WE HAVE MAKE MULTIPLE CSS FILE TO JO USME LAST ME CSS FILE INCLUDE HUI H USKI CSS PROPERTY LAGU KI JAYE  */  
+h3{
+    background-color: blue;
+}
+
+
+
+
+
+

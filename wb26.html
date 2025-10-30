@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html level-3</title>
+</head>
+<body>
+    <form action="/server">
+        <!-- checkbox -->
+        <input type = "checkbox" id="age"name="age"checked/>
+        <label for="age">I am 18+</label>
+        <!-- radio buttons -->
+        <div>
+            <input type = "radio" name="fruit" id ="apple" value="apple"/>
+            <label for="apple"> apple</label>
+            <input type = "radio" name="fruit" id ="mango"value="mango"/>
+            <label for="mango"> mango</label>
+            <input type = "radio" name="fruit" id ="banana" value="banana"/>
+            <label for="banana"> banana</label>
+        </div>
+        <br>
+        <!-- checkbox grouped -->
+        <div>
+        choose your subjects:
+        <input type = "checkbox" id="math"name="subjects"value="math"/>
+        <label for="english">math</label>
+        <input type = "checkbox" id="science"name="subjects"value="science"/>
+        <label for="english">science</label>
+        <input type = "checkbox" id="english"name="subjects"value="english"/>
+        <label for="english">english</label>
+        </div>
+        <div>
+        choose your professions:
+        <select name="profession"id="profession">
+            <option>Select your options</option>
+            <option value="student" selected> Student</option>
+            <option value="developer"> Developer</option>
+        </select>
+        </div>
+        <div>
+        <LABEL FOR="VOL">select you volume level:</LABEL>
+        <INPUT TYPE="RANGE" ID="VOL" min="0" max="100" name="vol"step="10"value="70"/>
+        <br>
+        <label for="feedback">please provide your valuable feedback:</label>
+            <textarea id="feedback" name="feedback" placeholder="write your feedback here"></textarea>
+        <button>submit</button>
+    </div>
+
+    </form>
+</body>
+</html>

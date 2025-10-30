@@ -1,0 +1,23 @@
+/* h2{
+    display:inline;
+    background-color:pink;
+}
+span{
+    display:block;
+    background-color:green;
+}
+span{
+    background-color:pink;
+    border:2px solid black;
+    height:100px;
+    width:200px;
+    padding:50px;
+    margin: 20px;
+} */
+div{
+    border:2px solid black;
+    height:100px;
+    width:200px;
+    padding:50px;
+    margin: 20px; 
+}
